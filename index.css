@@ -1,0 +1,23 @@
+body {
+	background-image: url(http://www.pptbackgrounds.org/uploads/wood-backgrounds-wallpapers.jpg);
+	color: rgb(196,146,62);
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+h1 {
+	font-size: 400%;
+	padding-left: 10px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 200%;
+	padding-left: 10px;
+	color: rgb(203,172,133);
+}
+img#profile {
+	height:18%;
+	width:18%;
+	display: inline;
+	float: right;
+	padding-right: 10px;
+	border-radius: 10%;
+}
