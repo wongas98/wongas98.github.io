@@ -3,8 +3,27 @@ body {
 	color: rgb(196,146,62);
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 130%;
+}
+.navbar-default .navbar-nav > li > a {
+	color: rgb(203,172,133);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: rgb(196,146,62);
+	text-decoration: underline;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: rgb(196,146,62);
+	background-color: transparent;
+}
 h1 {
-	font-size: 400%;
+	font-size: 450%;
 	padding-left: 10px;
 	font-weight: bold;
 }
@@ -13,11 +32,122 @@ h2 {
 	padding-left: 10px;
 	color: rgb(203,172,133);
 }
+div h2 {
+	padding: 0px;
+	font-size: 200%;
+	color: rgb(203,172,133);
+	font-style: italic;
+}
+h4 {
+	font-size: 150%;
+	color: rgb(203,172,133);
+}
+h3 {
+	font-size: 450%;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(203,172,133);
+}
+img.Album {
+	height: 376px;
+	width: 376px;
+	margin: auto;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    color: rgb(203,172,133); 
+    font-size: 120%;
+}
+.carousel-caption p {
+	width: 700px;
+	margin: auto;
+}
 img#profile {
-	height:18%;
-	width:18%;
-	display: inline;
+	height:19%;
+	width:19%;
+	display: inline-block;
 	float: right;
 	padding-right: 10px;
 	border-radius: 10%;
+}
+img#profile2 {
+	height:50%;
+	width:50%;
+	padding-left: 10px;
+	padding-top: 40px;
+	border-radius: 10%;
+	float:left;
+}
+table {
+	padding: 10px;
+	width: 550px;
+	height: 500px;
+	color: rgb(203,172,133);
+	font-size: 160%;
+}
+table#personalLife {
+	width: auto;
+}
+th {
+	padding: 10px;
+	font-size: 175%;
+}
+td:hover {
+	background-color: rgb(62,30,4);
+}
+td {
+	padding: 10px;
+	font-size: 80%;
+	border-radius: 10%;
+}
+a {
+	color: rgb(203,172,133);
+	text-decoration: underline;
+}
+a:hover {
+	color: rgb(220,200,160);
+}
+p.quote {
+	font-style: italic;
+	font-size: 85%;
+}
+p#longquote {
+	width: 100px;
+}
+table.Awards {
+	padding: 10px;
+	color: rgb(203,172,133);
+}
+table.Awards td{
+	text-align: center;
+}
+img.Award {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	opacity: 0.85;
+}
+img.Award:hover {
+	opacity: 1;
+}
+img.leftpic {
+	float: left;
+	display: inline-block;
+	width: 22%;
+	height: 22%;
+	padding-left: 10px;
+	border-radius: 10%;
+	clear: left;
+}
+img.rightpic {
+	float: right;
+	display: inline-block;
+	width: 22%;
+	height: 22%;
+	padding-right: 10px;
+	border-radius: 10%;
+	clear: right;
 }
